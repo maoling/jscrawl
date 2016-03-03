@@ -34,8 +34,8 @@ $(function(){
 	}
 	//判断是否需要重新登录
 	if(crawlUrl.indexOf(settings.loginDomain)!=-1){
-		document.getElementById("TPL_username_1").value = "13716183704";
-		document.getElementById("TPL_password_1").value = "cdf12020cdf12020";
+		document.getElementById("TPL_username_1").value = "";
+		document.getElementById("TPL_password_1").value = "";
 		document.getElementById("J_SubmitStatic").click();
 	}
 
